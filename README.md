@@ -1,5 +1,7 @@
 # HV Web Site
 
+[![Build Status](https://travis-ci.org/jferrl/hv-site.svg?branch=master)](https://travis-ci.org/jferrl/hv-site)
+
 ## Available Scripts
 
 In the project directory, you can run:
