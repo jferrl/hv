@@ -12,7 +12,7 @@ export const NavHeader = (): ReactElement => (
                     href="/"
                     icon={<Logo />}
                     color="black"
-                    label={size !== 'xsmall' && size !== 'small' && <Text size="large">Hotel Villegas</Text>}
+                    label={size !== 'xsmall' && size !== 'small' && <Text size="xxlarge">Hotel Villegas</Text>}
                 />
                 <SocialMedia />
             </Box>
