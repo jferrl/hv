@@ -1,5 +1,5 @@
 import { Box, ResponsiveContext } from 'grommet';
-import { Component, ReactElement } from 'react';
+import { ReactElement } from 'react';
 import Slider from 'react-slick';
 
 import { images } from './data';
