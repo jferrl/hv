@@ -7,10 +7,10 @@ interface Props {
 
 export const SliderImage = ({ src }: Props): ReactElement => (
     <ResponsiveContext.Consumer>
-        {(size: string): ReactElement => (
+        {(_size: string): ReactElement => (
             <Stack anchor="bottom">
                 <Box round="xlarge" overflow="hidden" align="center" margin="small" height="large">
-                    <Image src={src} />
+                    <Image src={src} style={{ width: '100%', height: '100%' }} />
                 </Box>
             </Stack>
         )}

@@ -13,9 +13,31 @@ export const Hotel = (): ReactElement => (
         <Features />
         <Box height="large" width="xlarge" overflow="hidden">
             <Carousel fill={true}>
-                <Image fit="cover" src="//v2.grommet.io/assets/Wilderpeople_Ricky.jpg" />
-                <Image fit="cover" src="//v2.grommet.io/assets/IMG_4245.jpg" />
-                <Image fit="cover" src="//v2.grommet.io/assets/IMG_4210.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/167 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/118 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/119 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/121 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/122 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/123 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/124 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/126 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/128 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/133 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/137 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/140 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/142 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/145 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/148 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/151 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/153 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/154 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/155 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/156 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/159 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/160 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/161 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/165 FOTO.jpg" />
+                <Image fit="cover" src="/images/hotel/gallery/174 FOTO.jpg" />
             </Carousel>
         </Box>
     </Box>

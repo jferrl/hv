@@ -1,5 +1,5 @@
 import { Anchor, Box } from 'grommet';
-import { FacebookOption, Instagram } from 'grommet-icons';
+import { Instagram } from 'grommet-icons';
 import { ReactElement } from 'react';
 
 export const SocialMedia = (): ReactElement => (
@@ -10,11 +10,11 @@ export const SocialMedia = (): ReactElement => (
             href="https://www.instagram.com/"
             icon={<Instagram color="brand" size="medium" />}
         />
-        <Anchor
+        {/* <Anchor
             target="_blank"
             a11yTitle="Chat with us on Slack"
             href="https://www.facebook.com/"
             icon={<FacebookOption color="brand" size="medium" />}
-        />
+        /> */}
     </Box>
 );

@@ -1,3 +1,5 @@
+// tslint:disable: no-magic-numbers
+
 import { Box, ResponsiveContext } from 'grommet';
 import { ReactElement } from 'react';
 import Slider from 'react-slick';
@@ -13,8 +15,8 @@ const settings = {
     speed: 1200
 };
 
-// tslint:disable-next-line: no-magic-numbers
-const getNumOfItemsToShow = (size: string): number => (size === 'xsmall' ? 2 : size === 'small' ? 3 : size === 'medium' ? 4 : 5);
+const getNumOfItemsToShow = (size: string): number =>
+    size === 'xsmall' ? 1 : size === 'small' ? 1 : size === 'medium' ? 3 : size === 'large' ? 5 : 5;
 
 const galleryItems = (): ReactElement[] => images.map((item: string, index: number): ReactElement => <SliderImage src={item} key={index} />);
 
